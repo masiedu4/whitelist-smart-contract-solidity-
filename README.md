@@ -1,6 +1,8 @@
-# Basic Sample Hardhat Project
+# Build a WhiteList Smart Contract 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Whitelisting use case. Let's say you are launching your NFT project and you want to give exclsuive access to a whitelist. You can use the smart contract to create your whitelist.
+
+
 
 Try running some of the following tasks:
 
