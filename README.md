@@ -4,6 +4,6 @@ This project demonstrates a basic Whitelisting use case. Let's say you are launc
 
 Check out the [master](https://github.com/masiedu4/whitelist-smart-contract-solidity-/tree/master) branch for the frontend part of this project. (Built with React and ethers.js)
 
-Try running some of the following tasks:
+
 
 
