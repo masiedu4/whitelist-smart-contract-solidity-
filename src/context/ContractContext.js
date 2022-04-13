@@ -22,7 +22,7 @@ export const ContractProvider = ({ children }) => {
   const [numofWhitelisted, setNumofWhitelisted] = useState(null);
   const [connectButtonText, setConnetButtonText] = useState("Connect Wallet");
   const [isWalletConnected, setWalletConnected] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("Hey, please connect your wallet!");
+  const [errorMessage, setErrorMessage] = useState("You are not connected to a wallet");
   const [connectedAddress, setConnectedAddress] = useState(null);
   const [joinWhiteListText, setJoinWhiteListText] =
     useState("Join the Whitelist");
