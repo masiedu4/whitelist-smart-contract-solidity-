@@ -26,6 +26,8 @@ export default function Whitelist() {
     numofWhitelisted,
     joinWhitelistHandler,
     joinWhiteListText,
+    isWalletConnected,
+    errorMessage,
   } = useContext(ContractContext);
 
   return (
@@ -51,10 +53,13 @@ export default function Whitelist() {
             {numofWhitelisted} have already joined the Whitelist
           </div>
           <div>
-            <button onClick={joinWhitelistHandler}>
-              {" "}
-              {joinWhiteListText}{" "}
-            </button>
+            {isWalletConnected ? (
+              <button onClick={joinWhitelistHandler}>
+                {joinWhiteListText}
+              </button>
+            ) : (
+              <p> {errorMessage} </p>
+            )}
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ export const ContractProvider = ({ children }) => {
   const [numofWhitelisted, setNumofWhitelisted] = useState(null);
   const [connectButtonText, setConnetButtonText] = useState("Connect Wallet");
   const [isWalletConnected, setWalletConnected] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(null);
+  const [errorMessage, setErrorMessage] = useState("Hey, please connect your wallet!");
   const [connectedAddress, setConnectedAddress] = useState(null);
   const [joinWhiteListText, setJoinWhiteListText] =
     useState("Join the Whitelist");
@@ -86,12 +86,12 @@ export const ContractProvider = ({ children }) => {
       setJoinWhiteListText("Succesfully Joined!");
       await getNumWhitelistHandler();
     } else {
-      setErrorMessage("Please Connect Wallet!");
+      setErrorMessage("Please Connect Wallet To Join the Whitelist!");
     }
   };
 
   return (
-	  <ContractContext.Provider value={{connectWalletHandler, connectButtonText, connectButtonText , connectedAddress , getNumWhitelistHandler , numofWhitelisted , joinWhiteListText , joinWhitelistHandler}}>
+	  <ContractContext.Provider value={{connectWalletHandler, connectButtonText, connectButtonText , connectedAddress , getNumWhitelistHandler , numofWhitelisted , joinWhiteListText , joinWhitelistHandler , isWalletConnected , errorMessage}}>
 		  {children}
 	  </ContractContext.Provider>
   )
