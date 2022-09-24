@@ -1,8 +1,23 @@
 # Build a WhiteList Smart Contract 
 
-This project demonstrates a basic Whitelisting use case. Let's say you are launching your NFT project and you want to give exclsuive access to a whitelist. You can use the smart contract to create your whitelist.
+## Description
 
-Check out the [master](https://github.com/masiedu4/whitelist-smart-contract-solidity-/tree/master) branch for the frontend part of this project. (Built with React and ethers.js)
+This project illustrates a fundamental Whitelisting use case. Assume you're launching your NFT project and want to grant exclusive access to a whitelist. You can create your whitelist using the smart contract and allow people to join via the frontend
+
+## Languages and Tools Used
+
+- JavaScript 
+- React.js
+- Solidity 
+- Hardhat
+- Ethers.js
+- Alchemy
+- Polygon 
+- Rinkeby Testnet
+
+
+
+Check out the [master](https://github.com/masiedu4/whitelist-smart-contract-solidity-/tree/master) branch for the frontend part of this project and [main](https://github.com/masiedu4/whitelist-smart-contract-solidity-/tree/main) for the smart contract logic.
 
 
 
