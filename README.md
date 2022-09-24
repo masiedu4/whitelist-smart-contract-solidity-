@@ -8,6 +8,7 @@ This is the smart contract part of the project. Here we are implementing princip
 
 - Solidity
 - Hardhat
+- Alchemy
 - Rinkeby Testnet
 - Polygon
 - Ethers.js
